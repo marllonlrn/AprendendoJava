@@ -1,16 +1,36 @@
 # Aprendendo Java
 
-## Aula 1 — Primeiro programa
+Repositório que documenta minha evolução prática com Java, desde os fundamentos da linguagem até a construção de aplicações e APIs REST.
 
-O arquivo `src/Main.java` contém o ponto de entrada do programa:
+## Sobre mim
 
-```java
-public static void main(String[] args)
+Sou **Marllon Lorran**, desenvolvedor em formação. Neste espaço registro exercícios, anotações e pequenos projetos criados durante meus estudos, com foco em escrever código limpo, entender os fundamentos e evoluir de forma consistente.
+
+Minha meta atual é aplicar Java no desenvolvimento de **APIs REST**.
+
+## Objetivos de aprendizado
+
+- Consolidar a lógica de programação e a sintaxe do Java;
+- Dominar orientação a objetos;
+- Trabalhar com coleções, exceções, arquivos e testes;
+- Aprender persistência de dados com SQL e JPA;
+- Criar APIs REST com Spring Boot;
+- Desenvolver projetos organizados e prontos para portfólio.
+
+## Conteúdo atual
+
+### Aula 1 — Primeiro programa
+
+O projeto inicial apresenta a estrutura básica de uma aplicação Java e a execução do método `main`. O programa exibe uma breve apresentação e uma meta de aprendizado.
+
+```text
+src/
+└── Main.java
 ```
 
-Tudo que estiver dentro desse método é executado quando o programa inicia.
+## Como executar
 
-### Executar pelo terminal
+Pré-requisito: tenha o [JDK](https://www.oracle.com/java/technologies/downloads/) instalado e disponível no terminal.
 
 Na raiz do projeto, execute:
 
@@ -19,14 +39,22 @@ javac -d out src/Main.java
 java -cp out Main
 ```
 
-`javac` transforma o código Java em bytecode e `java` executa o programa.
+## Progresso
 
-### Desafio
+- [x] Estrutura básica de um programa Java
+- [x] Método `main` e saída no console
+- [x] Variáveis e concatenação de textos
+- [ ] Tipos de dados e operadores
+- [ ] Estruturas condicionais e de repetição
+- [ ] Métodos e orientação a objetos
+- [ ] Coleções, exceções e testes
+- [ ] APIs REST com Spring Boot
 
-Altere a mensagem para mostrar, em linhas separadas:
+## Tecnologias
 
-1. Seu nome;
-2. A cidade onde mora;
-3. Uma meta para aprender Java.
+- Java
+- JDK
 
-Use um `System.out.println(...)` para cada linha.
+---
+
+Este repositório será atualizado conforme eu avançar nos estudos.
