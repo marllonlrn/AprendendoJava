@@ -1,84 +1,89 @@
-# Aprendendo Java
+# Learning Java
 
-Repositório que documenta minha evolução prática com Java, desde os fundamentos da linguagem até a construção de aplicações e APIs REST.
+This repository documents my practical progress with Java, from language fundamentals to building applications and REST APIs.
 
-## Sobre mim
+## About me
 
-Sou **Marllon Lorran**, desenvolvedor em formação. Neste espaço registro exercícios, anotações e pequenos projetos criados durante meus estudos, com foco em escrever código limpo, entender os fundamentos e evoluir de forma consistente.
+I am **Marllon Lorran**, an aspiring developer. I use this space to record exercises, notes, and small projects created during my studies, with a focus on writing clean code, understanding the fundamentals, and improving consistently.
 
-Minha meta atual é aplicar Java no desenvolvimento de **APIs REST**.
+My current goal is to use Java to develop **REST APIs**.
 
-## Objetivos de aprendizado
+## Learning goals
 
-- Consolidar a lógica de programação e a sintaxe do Java;
-- Dominar orientação a objetos;
-- Trabalhar com coleções, exceções, arquivos e testes;
-- Aprender persistência de dados com SQL e JPA;
-- Criar APIs REST com Spring Boot;
-- Desenvolver projetos organizados e prontos para portfólio.
+- Strengthen my programming logic and knowledge of Java syntax;
+- Master object-oriented programming;
+- Work with collections, exceptions, files, and tests;
+- Learn data persistence with SQL and JPA;
+- Create REST APIs with Spring Boot;
+- Develop well-organized, portfolio-ready projects.
 
-## Conteúdo atual
+## Current content
 
-### Aula 1 — Primeiro programa
+### Lesson 1 — First program
 
-Apresenta a estrutura básica de uma aplicação Java, o método `main`, variáveis do tipo `String` e a exibição de mensagens no console.
+Introduces the basic structure of a Java application, the `main` method, `String` variables, and displaying messages in the console.
 
-### Aula 2 — Variáveis e estruturas condicionais
+### Lesson 2 — Variables and conditional statements
 
-Calcula a média de duas notas e utiliza `if` e `else` para informar se o aluno foi aprovado ou reprovado.
+Calculates the average of two grades and uses `if` and `else` to report whether the student passed or failed.
 
-### Aula 3 — Entrada de dados
+### Lesson 3 — User input
 
-Utiliza a classe `Scanner` para receber duas notas pelo terminal, calcular a média e exibir o resultado. Em sistemas configurados em português, notas decimais devem ser digitadas com vírgula, como `7,5`.
+Uses the `Scanner` class to read two grades from the terminal, calculate their average, and display the result. On systems configured for English, decimal grades should be entered with a period, such as `7.5`.
 
-### Aula 5 — Introdução à orientação a objetos
+### Lesson 4 — For loops
 
-Demonstra os conceitos iniciais de POO com a classe `Pessoa`: objeto, atributos privados, construtor, métodos e alteração de estado.
+Demonstrates ascending and descending counts, custom increments, accumulation, array iteration, enhanced for loops, `continue`, `break`, and nested loops.
 
-## Estrutura do projeto
+### Lesson 5 — Introduction to object-oriented programming
+
+Demonstrates introductory OOP concepts with the `Person` class: objects, private fields, constructors, methods, and state changes.
+
+## Project structure
 
 ```text
 src/
-├── Aula1.java
-├── Aula2.java
-├── Aula3.java
-└── Aula5.java
+├── Lesson1.java
+├── Lesson2.java
+├── Lesson3.java
+├── Lesson4.java
+└── Lesson5.java
 ```
 
-## Como executar
+## How to run
 
-Pré-requisito: tenha o [JDK](https://www.oracle.com/java/technologies/downloads/) instalado e disponível no terminal.
+Prerequisite: install the [JDK](https://www.oracle.com/java/technologies/downloads/) and ensure it is available in your terminal.
 
-Na raiz do projeto, compile todas as aulas:
+From the project root, compile all lessons:
 
 ```powershell
 javac -encoding UTF-8 -d out src/*.java
 ```
 
-Depois, execute a aula desejada. Por exemplo:
+Then run the lesson you want. For example:
 
 ```powershell
-java -cp out Aula3
+java -cp out Lesson3
 ```
 
-## Progresso
+## Progress
 
-- [x] Estrutura básica de um programa Java
-- [x] Método `main` e saída no console
-- [x] Variáveis e concatenação de textos
-- [x] Tipos de dados e operadores
-- [x] Estruturas condicionais
-- [x] Entrada de dados com `Scanner`
-- [x] Introdução a métodos e orientação a objetos
-- [ ] Estruturas de repetição
-- [ ] Coleções, exceções e testes
-- [ ] APIs REST com Spring Boot
+- [x] Basic structure of a Java program
+- [x] The `main` method and console output
+- [x] Variables and string concatenation
+- [x] Data types and operators
+- [x] Conditional statements
+- [x] User input with `Scanner`
+- [x] Introduction to methods and object-oriented programming
+- [x] Loop structures
+- [ ] Collections, exceptions, and tests
+- [ ] REST APIs with Spring Boot
 
-## Tecnologias
+## Technologies
 
 - Java
 - JDK
 
 ---
 
-Este repositório será atualizado conforme eu avançar nos estudos.
+This repository will be updated as I progress in my studies.
