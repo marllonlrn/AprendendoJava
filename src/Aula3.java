@@ -14,7 +14,7 @@ public class Aula3 {
         }
 
         entradaUsuario.close();
-        */
+        
 
         System.out.print("Digite sua nota: ");
         double nota = entradaUsuario.nextDouble();
@@ -28,6 +28,27 @@ public class Aula3 {
             System.out.println("Reprovado com média: " + media);
         }
         
+        entradaUsuario.close();
+        */
+
+
+        System.out.print("Escolha o dia:\n1 - Segunda-feira\n2 - Terça-feira\n3 - Quarta-feira\nDigite o número correspondente ao dia: ");
+        String escolhaODia = entradaUsuario.nextLine();
+
+        switch(escolhaODia) {
+            case "1":
+                System.out.println("Seu dia é segunda-feira.");
+                break;
+            case "2":
+                System.out.println("Seu dia é terça-feira.");
+                break;
+            case "3":
+                System.out.println("Seu dia é quarta-feira.");
+                break;
+            default:
+                System.out.println("Opção inválida.");
+        }
+
         entradaUsuario.close();
     }
 }
