@@ -21,22 +21,44 @@ Minha meta atual é aplicar Java no desenvolvimento de **APIs REST**.
 
 ### Aula 1 — Primeiro programa
 
-O projeto inicial apresenta a estrutura básica de uma aplicação Java e a execução do método `main`. O programa exibe uma breve apresentação e uma meta de aprendizado.
+Apresenta a estrutura básica de uma aplicação Java, o método `main`, variáveis do tipo `String` e a exibição de mensagens no console.
+
+### Aula 2 — Variáveis e estruturas condicionais
+
+Calcula a média de duas notas e utiliza `if` e `else` para informar se o aluno foi aprovado ou reprovado.
+
+### Aula 3 — Entrada de dados
+
+Utiliza a classe `Scanner` para receber duas notas pelo terminal, calcular a média e exibir o resultado. Em sistemas configurados em português, notas decimais devem ser digitadas com vírgula, como `7,5`.
+
+### Aula 5 — Introdução à orientação a objetos
+
+Demonstra os conceitos iniciais de POO com a classe `Pessoa`: objeto, atributos privados, construtor, métodos e alteração de estado.
+
+## Estrutura do projeto
 
 ```text
 src/
-└── Main.java
+├── Aula1.java
+├── Aula2.java
+├── Aula3.java
+└── Aula5.java
 ```
 
 ## Como executar
 
 Pré-requisito: tenha o [JDK](https://www.oracle.com/java/technologies/downloads/) instalado e disponível no terminal.
 
-Na raiz do projeto, execute:
+Na raiz do projeto, compile todas as aulas:
 
 ```powershell
-javac -d out src/Main.java
-java -cp out Main
+javac -encoding UTF-8 -d out src/*.java
+```
+
+Depois, execute a aula desejada. Por exemplo:
+
+```powershell
+java -cp out Aula3
 ```
 
 ## Progresso
@@ -44,9 +66,11 @@ java -cp out Main
 - [x] Estrutura básica de um programa Java
 - [x] Método `main` e saída no console
 - [x] Variáveis e concatenação de textos
-- [ ] Tipos de dados e operadores
-- [ ] Estruturas condicionais e de repetição
-- [ ] Métodos e orientação a objetos
+- [x] Tipos de dados e operadores
+- [x] Estruturas condicionais
+- [x] Entrada de dados com `Scanner`
+- [x] Introdução a métodos e orientação a objetos
+- [ ] Estruturas de repetição
 - [ ] Coleções, exceções e testes
 - [ ] APIs REST com Spring Boot
 

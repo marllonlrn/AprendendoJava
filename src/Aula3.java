@@ -1,33 +1,33 @@
+import java.util.Scanner;
+
 public class Aula3 {
-  public static void main(String[] args) {
-    // Um objeto e uma instancia criada a partir de uma classe.
-    Pessoa aluno = new Pessoa("Marllon", 20);
+    public static void main(String[] args){
+        Scanner entradaUsuario = new Scanner(System.in);
+        /*
+        System.out.print("Digite sua idade: ");
+        int idade = entradaUsuario.nextInt();
 
-    aluno.apresentar();
-    aluno.fazerAniversario();
-    aluno.apresentar();
-  }
-}
+        if(idade >= 18) {
+            System.out.println("Você é maior de idade.");
+        } else {
+            System.out.println("Você é menor de idade.");
+        }
 
-// A classe funciona como um molde para criar objetos.
-class Pessoa {
-  // Atributos guardam as caracteristicas do objeto.
-  private String nome;
-  private int idade;
+        entradaUsuario.close();
+        */
 
-  // O construtor define os valores iniciais do objeto.
-  public Pessoa(String nome, int idade) {
-    this.nome = nome;
-    this.idade = idade;
-  }
+        System.out.print("Digite sua nota: ");
+        double nota = entradaUsuario.nextDouble();
+        System.out.println("Digite sua segunda nota: ");
+        double nota2 = entradaUsuario.nextDouble();
+        double media = (nota + nota2) / 2;
 
-  // Metodos representam comportamentos do objeto.
-  public void apresentar() {
-    System.out.println("Ola! Meu nome e " + nome + " e tenho " + idade + " anos.");
-  }
-
-  public void fazerAniversario() {
-    idade++;
-    System.out.println(nome + " fez aniversario!");
-  }
+        if(media >= 7.0) {
+            System.out.println("Aprovado com média: " + media);
+        } else {
+            System.out.println("Reprovado com média: " + media);
+        }
+        
+        entradaUsuario.close();
+    }
 }
